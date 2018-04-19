@@ -1,4 +1,4 @@
-# ethereumj-example
+# web3j-example
 
 Web3j web3 = Web3j.build(new HttpService("network address"));// 创建Web3J
 
