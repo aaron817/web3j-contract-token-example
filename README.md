@@ -1,8 +1,10 @@
 # web3j-example
 1、运行命令
+
 web3j solidity generate /path/to/Daibi.bin /path/to/Daibi.abi -o /path/to/src/main/java -p com.your.organisation.name
 
 2、编写代码
+
 Web3j web3 = Web3j.build(new HttpService("network address"));// 创建Web3J
 
 Credentials credentials = WalletUtils.loadCredentials("123456", "wallet file");// 加载钱包
